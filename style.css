@@ -1,0 +1,79 @@
+::-webkit-input-placeholder {
+  color: skyblue;
+}
+
+:-ms-input-placeholder {
+  color: skyblue;
+}
+
+::-ms-input-placeholder {
+  color: skyblue;
+}
+
+::placeholder {
+  color: skyblue;
+}
+
+.form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(70deg, #243331, #28223b);
+}
+
+.form form {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form form #name, .form form #email, .form form #message {
+  width: 50%;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid skyblue;
+  -webkit-transition: 600ms;
+  transition: 600ms;
+  color: skyblue;
+}
+
+.form form #name:focus, .form form #email:focus, .form form #message:focus {
+  width: 52%;
+}
+
+.form form #btn {
+  position: relative;
+  border: none;
+  background: transparent;
+  color: skyblue;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid skyblue;
+  -webkit-transition: 600ms;
+  transition: 600ms;
+}
+
+.form form #btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 0 10px skyblue, 0 0 10px skyblue;
+          box-shadow: inset 0 0 10px skyblue, 0 0 10px skyblue;
+}
+/*# sourceMappingURL=style.css.map */
